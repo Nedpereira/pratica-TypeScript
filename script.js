@@ -22,11 +22,14 @@ function criarSegundos(segundos){
 }
 
 iniciar.addEventListener('click', function(e){
+    relogio.classList.remove('pausado');
+    clearInterval(time);
     iniciaRelogio()
 })
 
 pausar.addEventListener('click', function(e){
     clearInterval(time);
+    relogio.classList.add('pausado')
 })
 
 zerar.addEventListener('click', function(e){
