@@ -1,0 +1,22 @@
+{
+  "name": "aula",
+  "version": "1.0.0",
+  "description": "Cronômetro - Curso de Javascript e TypeScript | Udemy",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nedpereira/cronometro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nedpereira/cronometro/issues"
+  },
+  "homepage": "https://github.com/Nedpereira/cronometro#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
